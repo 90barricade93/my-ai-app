@@ -1,4 +1,4 @@
-import OpenAI from 'openai';
+import OpenAI from 'openai/index.mjs';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
  
 // Create an OpenAI API client (that's edge friendly!)
